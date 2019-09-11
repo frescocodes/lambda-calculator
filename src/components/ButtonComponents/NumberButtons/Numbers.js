@@ -17,7 +17,7 @@ import { numbers } from '../../../data'
        component matching the name on the provided file. Pass
        it any props needed by the child component*/}
        {numbers.map((numbers) => {
-         return <button> {numbers} </button>
+         return <button className="myButton numberButtons"> {numbers} </button>
        } )}
     </div>
   );
