@@ -10,45 +10,45 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.logo-container {
+  padding: 10px;
+}
+
 .buttons_wrapper {
   display: flex;
+  /* justify-content: space-evenly; */
+  justify-content: center;
+  width: 90%;
+  padding: 30px 5% 0 5%;
 }
 
 .container {
   display: flex;
   flex-direction: column;
-  /* width: 600px; */
-}
-
-.display {
-  background-color:#323335;
-  /* width:100%; */
-  height:60px;
-  border-radius:80px;
-  padding:0 10px;
-  color:#fff;
-  font-size:40px;
-  overflow:hidden;
+  width: 100%;
+  
 }
     
-
 .leftSide_buttons {
   display: flex;
   flex-direction: column;
-  width: 50%
+  width: 70%;
+
 }
 
 .numberButtons_wrapper {
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   width: 100%;
-  
+  justify-content: space-evenly;
 }
 
 .operatorButtons_wrapper {
   display: flex;
   flex-direction: column;
-  width: 10%;
+  width: 20%;
+  padding: 
 }
 
 .myButton {
@@ -57,18 +57,23 @@ code {
   width: 75px;
   font-size: 2rem;
   color: #fff;
+  border: 0;
+  box-shadow: 1px 5px #000;
 }
 
 .operatorButtons {
   background-color: #007291;
+  margin: 5px;
 }
 
 .specialButtons {
   background-color: #0b5d9b;
+  margin: 5px;
 }
 
 .numberButtons {
   background-color: #094377;
+  margin: 5px;
 }
 
 /* #094377 number */

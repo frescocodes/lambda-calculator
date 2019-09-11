@@ -23,28 +23,19 @@ function App() {
       <Logo />
       <div className="App">
         <Display />
-        {/* STEP 4 - Render your components here and be sure to properly import/export all files */}
         <div className="buttons_wrapper">
 
           <div className="leftSide_buttons">
-
-            <div className="specialButtons_wrapper">
               <SpecialButton />
-            </div>
-
-            <div className="numberButtons_wrapper">
               <NumberButton />
-            </div>
-          </div> {/* leftside buttons end */}
-          
+            
+          </div> 
           <div className="operatorButtons_wrapper">
             <OperatorButton />
           </div>
-
-        </div> {/* buttons wrapper end */}
-        
-      </div> {/* App end */}
-  </div> 
+        </div>
+  </div>
+  </div>
   );
 }
 
