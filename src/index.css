@@ -10,3 +10,80 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.logo-container {
+  padding: 10px;
+}
+
+.buttons_wrapper {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  padding: 30px 5% 0 5%;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+    
+.leftSide_buttons {
+  display: flex;
+  flex-direction: column;
+  width: 70%;
+}
+
+.numberButtons_wrapper {
+  display: flex;
+  /* flex-wrap: wrap; */
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.operatorButtons_wrapper {
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+
+.myButton {
+  border-radius: 50%;
+  height: 75px;
+  width: 75px;
+  font-size: 2rem;
+  color: #fff;
+  border: 0;
+  box-shadow: 1px 5px #000;
+}
+
+.myButton:hover {
+  background: #fff;
+  color: #282c34;
+  transform: translateY(-1px);
+  box-shadow: 0 10px 20px rgba(247, 181, 181, 0.3)
+}
+
+.orange {
+  background-color: orange;
+  color: #000;
+}
+
+.operatorButtons {
+  background-color: #007291;
+  margin: 5px;
+}
+
+.specialButtons {
+  background-color: #0b5d9b;
+  margin: 5px;
+}
+
+.numberButtons {
+  background-color: #094377;
+  margin: 5px;
+}
+
+/* #094377 number */
+/* #0b5d9b special */
+/* #007291 operators */
